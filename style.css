@@ -1,0 +1,79 @@
+:root {
+  --black: black;
+  --primary: #141718;
+  --secondary: #377dff;
+  --white: #ffffff;
+  --orange: #ffab00;
+}
+
+/* --- Header Section ---*/
+
+/*notification bar */
+.notification__bar {
+  background-color: var(--black);
+  height: 40px;
+}
+
+.notification__bar__box {
+  max-width: 1120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.notification__bar__box__txt {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.notification__bar__box__span {
+  color: var(--orange);
+  margin-left: 12px;
+  border-bottom: 1px solid var(--orange);
+}
+
+/* --- Hero Section ----- */
+.hero {
+  background: linear-gradient(#ffc95c, #ffab00);
+  height: 100vh;
+}
+.hero__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hero__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__bar__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero__bar__content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--primary);
+}
+.hero__bar__content a {
+  text-decoration: none;
+  padding: 12px;
+  text-align: center;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 234px;
+  border-radius: 8px;
+}
